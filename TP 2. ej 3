@@ -1,0 +1,7 @@
+"""Calcular el promedio de las notas que obtiene un alumno al rendir 
+los dos parciales."""
+nota1 = int(input("Ingrese la nota del primer parcial: "))
+nota2 = int(input("Ingrese la nota del segundo parcial: "))
+
+prom = (nota1 + nota2)/2
+print("Su promedio es de ", prom)

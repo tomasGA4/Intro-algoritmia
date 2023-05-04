@@ -1,0 +1,11 @@
+"""Una persona invierte su capital en un
+banco y desea saber cuanto dinero ganara
+en un mes, teniendo en cuenta que el banco
+paga 2% mensual.
+¿Cuanto ganará en seis meses si deja su
+dinero invertido?."""
+
+banco = int(input("Ingrese un monto: "))
+pago_mensual = banco / 100 * 12
+print("En 6 meses ganará:",pago_mensual,"$")
+

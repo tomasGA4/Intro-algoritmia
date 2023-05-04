@@ -1,0 +1,16 @@
+"""Tres personas invierten dinero para
+fundar una empresa (no necesariamente en
+parte iguales). Calcular que porcentaje
+invirtio cada uno."""
+
+p1 = int(input("Introduzca un monto: "))
+p2 = int(input("Introduzca otro monto: "))
+p3 = int(input("Introduzca otro monto: "))
+
+total = p1 + p2 + p3
+xcent1 = p1 / total * 100
+xcent2 = p2 / total * 100
+xcent3 = p3 / total * 100
+print("Al primer inversor le pertenece un ", xcent1,"%")
+print("Al segundo inversor le pertenece un ", xcent2,"%")
+print("Al tercer inversor le pertenece un ", xcent3,"%")

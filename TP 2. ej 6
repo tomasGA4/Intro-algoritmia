@@ -1,0 +1,9 @@
+"""Ingresar tres numeros enteros, calcular
+su promedio y mostrarlo por pantalla."""
+
+nro1 = int(input("Introduzca el primer número: "))
+nro2 = int(input("Introduzca el segundo número: "))
+nro3 = int(input("Introduzca el tercer número: "))
+
+res = (nro1 + nro2 + nro3) / 3
+print("El promedio es: ", res)

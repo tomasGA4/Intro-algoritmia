@@ -1,0 +1,9 @@
+"""Desarrollar un programa que permita ingresar dos números enteros A y B 
+a través del teclado. Imprimir su suma y su diferencia."""
+
+nro1 = int(input("Ingrese un número: "))
+nro2 = int(input("ingrese otro número: "))
+
+suma = nro1 + nro2
+dif = nro1 - nro2
+print("El resultado es", suma, "y su diferencia es", dif)

@@ -1,0 +1,8 @@
+"""Escribir un programa que permita ingresar la edad de una
+persona en años y la convierta a dias, imprimiendo el
+resultado. Considerar que todos los años tienen 365 dias."""
+
+años = int(input("ingrese su edad: "))
+dias = años * 365
+
+print("Su edad en dias es de: ", dias)
